@@ -10,6 +10,7 @@
     text-align: center;
 }
 
+/* User Show page styles */
 .well.profile-block {
   color: #fff;
   h3 {
@@ -24,4 +25,17 @@
 .well.contact-info {
   background-color: #5bc0de;
   border-color: #46b8da;
+}
+.well.white-bg {
+  background-color: white;
+}
+/* User Index page styles */
+.user-show-avatar {
+  height: 100px;
+  width: 100px;
+}
+.user-index-avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
 }

@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-md-3 text-center">
-        <%= image_tag @user.profile.avatar.url(:thumb) %>
+        <%= image_tag @user.profile.avatar.url(:thumb), class: 'user-show-page' %>
     </div>
     <div class="col-md-9">
         <h1><%= @user.profile.first_name %> <%= @user.profile.last_name %></h1>
